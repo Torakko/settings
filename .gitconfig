@@ -15,3 +15,5 @@
         pu2 = push origin HEAD:refs/for/dev/v2
 [core]
         editor = vim
+[push]
+	default = simple
