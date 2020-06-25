@@ -1,6 +1,6 @@
 [user]
         name = Anton Hemlin
-        email = anton.hemlin@ericsson.com
+        email = anton.hemlin@gmail.com
 [alias]
         alias = !git config --global --list | grep ^alias
         br = branch -vvv
@@ -15,5 +15,6 @@
         pu2 = push origin HEAD:refs/for/dev/v2
 [core]
         editor = vim
+        autocrlf = true
 [push]
 	default = simple
